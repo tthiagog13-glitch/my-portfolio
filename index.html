@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thiago Gonçalves de Barros | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <a href="#inicio" class="logo">Thiago<span>.</span></a>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#aprender">Aprender</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#objetivo">Objetivo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="container">
+      <p class="eyebrow">Olá, eu sou</p>
+      <h1>Thiago <em>Gonçalves de Barros</em></h1>
+      <p>Técnico em Análise e Desenvolvimento de Sistemas, sempre em busca de novos desafios e aprendizados.</p>
+      <div class="buttons">
+        <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+        <a href="#sobre" class="btn btn-ghost">Sobre mim</a>
+      </div>
+
+      <div class="social">
+        <a href="https://github.com/tthiagog13-glitch" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/thiagogon%C3%A7alvesdebarros/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/thz_xtranho/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <div class="container">
+      <p class="label">Sobre mim</p>
+      <h2>Quem sou eu?</h2>
+      <p class="text">
+        Tenho 18 anos e sou técnico em Análise e Desenvolvimento de Sistemas.
+        Gosto de tecnologia, de resolver problemas e de transformar ideias em
+        projetos reais, sempre buscando evoluir um pouco mais a cada dia.
+      </p>
+    </div>
+  </section>
+
+  <section id="aprender">
+    <div class="container">
+      <p class="label">Próximos passos</p>
+      <h2>O que quero aprender</h2>
+      <ul class="grid" style="list-style:none;">
+        <li class="card tech"><span class="dot"></span>Unity</li>
+        <li class="card tech"><span class="dot"></span>C#</li>
+        <li class="card tech"><span class="dot"></span>Modelagem 3D</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <div class="container">
+      <p class="label">Portfólio</p>
+      <h2>Meus projetos</h2>
+
+      <!--
+        COMO ADICIONAR UM PROJETO:
+        1. Apague o bloco <div class="empty"> abaixo (ou deixe, ele só ocupa espaço).
+        2. Copie o modelo abaixo, cole dentro de <div class="grid"> e troque link, nome e descrição.
+
+        <div class="card project">
+          <a href="https://link-do-projeto.com" target="_blank" rel="noopener">Nome do projeto →</a>
+          <p>Breve descrição do projeto.</p>
+        </div>
+      -->
+      <div class="grid" id="lista-projetos">
+      </div>
+      <div class="empty">Em breve, meus projetos aparecerão aqui.</div>
+    </div>
+  </section>
+
+  <section id="objetivo">
+    <div class="container">
+      <p class="label">Carreira</p>
+      <h2>Objetivo profissional</h2>
+      <p class="text">
+        Meu objetivo na área de tecnologia é crescer junto com a empresa,
+        contribuindo com dedicação e responsabilidade. O aprendizado é o que
+        mais me move: quero absorver a experiência de profissionais mais
+        experientes e fazer de cada projeto uma chance de evoluir. A longo
+        prazo, pretendo me aprofundar em jogos e gráficos 3D com Unity, C# e
+        modelagem 3D.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#inicio" class="logo">Thiago<span>.</span></a>
+          <p>
+            Técnico em Análise e Desenvolvimento de Sistemas, aprendendo,
+            criando e evoluindo um projeto de cada vez.
+          </p>
+          <div class="social">
+            <a href="https://github.com/tthiagog13-glitch" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/thiagogon%C3%A7alvesdebarros/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/thz_xtranho/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>Navegação</h3>
+          <ul>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#aprender">O que quero aprender</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+            <li><a href="#objetivo">Objetivo profissional</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Estou focando em</h3>
+          <div class="tags">
+            <span class="tag">Unity</span>
+            <span class="tag">C#</span>
+            <span class="tag">Modelagem 3D</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Thiago Gonçalves de Barros. Todos os direitos reservados.</span>
+        <a href="#inicio" class="to-top" aria-label="Voltar ao topo">Voltar ao topo <span aria-hidden="true">↑</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Rolagem suave até a seção ao clicar em botões e links do menu
+    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var alvo = document.querySelector(link.getAttribute('href'));
+        if (!alvo) return;
+        e.preventDefault();
+        if (alvo.id === 'inicio') {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Elementos aparecem ao entrar na tela e somem ao sair
+    var itens = document.querySelectorAll(
+      '.hero .container > *, section .container > *:not(.grid), .grid > *, .footer-grid > *, .footer-bottom'
+    );
+    var observer = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (entrada) {
+        entrada.target.classList.toggle('visible', entrada.isIntersecting);
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -5% 0px' });
+
+    itens.forEach(function (el, i) {
+      el.classList.add('reveal');
+      if (el.parentElement.matches('.grid, .footer-grid')) {
+        var posicao = Array.prototype.indexOf.call(el.parentElement.children, el);
+        el.style.setProperty('--d', (posicao * 0.12) + 's');
+      }
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
